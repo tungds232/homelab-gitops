@@ -9,4 +9,4 @@ data:
     <style>body{font-family:system-ui;background:#0d9488;color:#fff;display:flex;
     height:100vh;align-items:center;justify-content:center;flex-direction:column;margin:0}
     h1{font-size:3rem}small{opacity:.7}</style></head>
-    <body><h1>Hello from ArgoCD #2</h1><small>managed by ArgoCD · GitOps demo</small></body></html>
+    <body><h1>Updated via GitOps push</h1><small>managed by ArgoCD · GitOps demo</small></body></html>
