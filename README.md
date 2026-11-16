@@ -6,10 +6,8 @@ ArgoCD (argocd.tungds232.com) watch repo này và tự sync manifests vào clust
 Git = source of truth. Sửa manifest + push -> ArgoCD apply.
 
 ## Apps
-- `apps/demo-hello-1` -> demo-hello-1.tungds232.com (nginx, ConfigMap HTML)
-- `apps/demo-hello-2` -> demo-hello-2.tungds232.com (nginx, ConfigMap HTML)
-
-App demo nhẹ để học GitOps (sync / rollback / drift detection).
+Hiện chưa có app nào. 2 app demo (`demo-hello-1`, `demo-hello-2`) đã gỡ ngày 2026-11-16
+(ArgoCD Application đã xoá; xem lại trong git history nếu cần).
 Production apps (QLSX, cv-reviewer...) vẫn dùng pipeline push qua GitHub Actions.
 
 ## Cách hoạt động
